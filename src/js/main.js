@@ -119,7 +119,7 @@ function onDraw(e) {
         ctx.globalAlpha = 1;
     } else {
         ctx.strokeStyle = colorChosen.value;   
-        ctx.globalAlpha = `0.${transparency.value}`;
+        ctx.globalAlpha = "0." + transparency.value;
     }
 
     ctx.stroke();
